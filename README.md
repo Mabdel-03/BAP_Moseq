@@ -10,18 +10,22 @@ The repository is organized hierarchically by experimental groups:
 
 ```
 Data/
-├── PC_Embeddings/
-│   ├── Moms/
-│   │   ├── moms_PCA8_embedding.csv.gz
-│   │   └── README.md
-│   └── Offsprings/
-│       ├── Female/
-│       │   ├── offspring_PCA25_embedding.csv.gz
-│       │   └── README.md
-│       ├── Male/
-│       │   ├── offspring_PCA25_embedding.csv.gz
-│       │   └── README.md
-│       └── README.md
+├── Fingerprint_Data/
+│   ├── FingerprintSummary_full.csv
+│   ├── FingerprintRangeDict_full.csv
+│   └── README.md (detailed 495-feature matrix documentation)
+└── PC_Embeddings/
+    ├── Moms/
+    │   ├── moms_PCA8_embedding.csv.gz
+    │   └── README.md
+    └── Offsprings/
+        ├── Female/
+        │   ├── females_final_data.csv (12 PCs)
+        │   └── README.md
+        ├── Male/
+        │   ├── males_final_data.csv (25 PCs)
+        │   └── README.md
+        └── README.md
 ```
 
 ## Experimental Conditions
@@ -36,13 +40,14 @@ The mice were exposed to four different environmental conditions:
 ## Methodology Overview
 
 ### 1. Data Aggregation
-- Started with MoSeq pipeline output containing behavioral fingerprints
+- Started with MoSeq pipeline output containing behavioral fingerprints (`Data/Fingerprint_Data/`)
+- Processed multi-index fingerprint summary data into 495-dimensional feature matrix
 - Aggregated multiple behavioral metrics including:
-  - `dist_to_center_px`: Distance to center (pixels)
-  - `height_ave_mm`: Average height (mm)
-  - `length_mm`: Length measurements (mm)
-  - `velocity_2d_mm`: 2D velocity (mm)
-  - `MoSeq`: MoSeq-specific behavioral features
+  - `dist_to_center_px`: Distance to center (pixels) - 99 features
+  - `height_ave_mm`: Average height (mm) - 99 features
+  - `length_mm`: Length measurements (mm) - 99 features
+  - `velocity_2d_mm`: 2D velocity (mm) - 99 features
+  - `MoSeq`: MoSeq-specific behavioral features - 99 features
 
 ### 2. Feature Engineering
 - Combined all behavioral metrics into a unified feature matrix

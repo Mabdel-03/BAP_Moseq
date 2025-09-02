@@ -5,7 +5,7 @@ This directory contains principal component embeddings derived from Motion Seque
 ## Data Processing Pipeline
 
 ### Source Data
-The embeddings were created from MoSeq pipeline output, specifically from fingerprint summary data containing multiple behavioral metrics per mouse.
+The embeddings were created from MoSeq pipeline output, specifically from fingerprint summary data containing multiple behavioral metrics per mouse. The raw fingerprint data and detailed processing documentation can be found in the `Fingerprint_Data/` directory.
 
 ### Feature Aggregation
 Five key behavioral metrics were extracted and combined:
@@ -22,6 +22,16 @@ Five key behavioral metrics were extracted and combined:
 3. **Feature Concatenation**: Combined all metrics into a unified feature matrix (495 total features)
 4. **Standardization**: Applied StandardScaler normalization
 5. **Dimensionality Reduction**: Used PCA with hyperparameter optimization via GridSearchCV
+
+## Directory Structure
+
+### Fingerprint_Data
+- **Purpose**: Raw MoSeq fingerprint data and 495-feature matrix documentation
+- **Contents**: Source CSV files and detailed processing methodology
+- **Key Files**: 
+  - `FingerprintSummary_full.csv`: Multi-index behavioral fingerprint data
+  - `FingerprintRangeDict_full.csv`: Metadata and scaling information
+  - `README.md`: Comprehensive feature matrix construction documentation
 
 ## Experimental Groups
 
