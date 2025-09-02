@@ -5,7 +5,7 @@ This directory contains principal component embeddings derived from Motion Seque
 ## Data Processing Pipeline
 
 ### Source Data
-The embeddings were created from MoSeq pipeline output, specifically from fingerprint summary data containing multiple behavioral metrics per mouse. The raw fingerprint data and detailed processing documentation can be found in the `Fingerprint_Data/` directory.
+The embeddings were created from **population-specific MoSeq pipeline outputs**. Separate MoSeq models were trained for Moms and Offsprings to optimize feature extraction for each population's behavioral repertoire. The raw fingerprint data and detailed processing documentation can be found in the `Fingerprint_Data/` directory with population-specific subdirectories.
 
 ### Feature Aggregation
 Five key behavioral metrics were extracted and combined:
@@ -26,12 +26,12 @@ Five key behavioral metrics were extracted and combined:
 ## Directory Structure
 
 ### Fingerprint_Data
-- **Purpose**: Raw MoSeq fingerprint data and 495-feature matrix documentation
-- **Contents**: Source CSV files and detailed processing methodology
-- **Key Files**: 
-  - `FingerprintSummary_full.csv`: Multi-index behavioral fingerprint data
-  - `FingerprintRangeDict_full.csv`: Metadata and scaling information
-  - `README.md`: Comprehensive feature matrix construction documentation
+- **Purpose**: Population-specific MoSeq fingerprint data and 495-feature matrix documentation
+- **Structure**: Separate subdirectories for Moms and Offsprings models
+- **Key Subdirectories**:
+  - `Moms/`: Fingerprint data from MoSeq model trained on maternal mice only
+  - `Offsprings/`: Fingerprint data from MoSeq model trained on offspring mice only
+- **Benefits**: Population-specific optimization reduces noise and improves feature relevance
 
 ## Experimental Groups
 

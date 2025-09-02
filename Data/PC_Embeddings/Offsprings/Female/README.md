@@ -8,7 +8,7 @@ This directory contains 12-dimensional principal component embeddings for female
 - **Sample Size**: 33 mice
 - **Principal Components**: 12 PCs (optimal for female behavioral patterns)
 - **Environmental Conditions**: 4 conditions (EE, LNB, NGH, SI)
-- **Classification Performance**: [Performance with 12 PCs - to be specified]
+- **Classification Performance**: Optimized with 12 PCs (from separate offspring-specific MoSeq model)
 
 ## Files
 
@@ -32,11 +32,12 @@ PC1-PC12 (float): Principal component coordinates (optimal for females)
 ### Identical Pipeline to Male Offspring
 This dataset was processed using the exact same methodology as the male offspring embeddings to ensure comparability:
 
-1. **Feature Extraction**: Same 5 behavioral metrics (495 total features)
-2. **Preprocessing**: Identical standardization and padding
-3. **Model Architecture**: PCA → Logistic Regression pipeline
-4. **Hyperparameter Optimization**: Same grid search parameters
-5. **Validation**: 5-fold stratified cross-validation
+1. **Source Data**: Same offspring-specific MoSeq model (`../../Fingerprint_Data/Offsprings/`)
+2. **Feature Extraction**: Same 5 behavioral metrics (495 total features)
+3. **Preprocessing**: Identical standardization and padding
+4. **Model Architecture**: PCA → Logistic Regression pipeline
+5. **Hyperparameter Optimization**: Same grid search parameters
+6. **Validation**: 5-fold stratified cross-validation
 
 ### Sex-Specific Optimization
 - Model trained exclusively on female offspring data
@@ -230,7 +231,7 @@ loadings = pca.components_  # Shape: (12, 495)
 - **Validation Method**: 5-fold stratified cross-validation
 - **Primary Metric**: Balanced accuracy (accounts for class imbalance)
 - **Optimal Components**: 12 PCs
-- **Results**: [Performance metrics to be added]
+- **Source Model**: Offspring-specific MoSeq training (separate from Moms model)
 
 ### Model Interpretability
 - **Variance Explained**: Optimized with 12 principal components

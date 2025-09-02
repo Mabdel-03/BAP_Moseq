@@ -31,7 +31,7 @@ Sex stratification was performed because:
 3. **Model Performance**: Individual models may achieve better classification accuracy within sex groups
 
 ### Sex-Specific Optimization
-While both groups use identical processing pipelines, optimal results required different PC counts:
+Both groups use the same offspring-specific MoSeq model data but optimal results required different PC counts:
 
 **Males**: 25 principal components
 - Captures more behavioral complexity
@@ -115,9 +115,9 @@ pipe = Pipeline([
 ```python
 import pandas as pd
 
-# Load both male and female embeddings
-df_male = pd.read_csv('Male/males_final_data.csv')      # 25 PCs
-df_female = pd.read_csv('Female/females_final_data.csv')  # 12 PCs
+# Load both male and female embeddings (from same offspring-specific MoSeq model)
+df_male = pd.read_csv('Male/males_final_data.csv')      # 25 PCs optimal
+df_female = pd.read_csv('Female/females_final_data.csv')  # 12 PCs optimal
 
 # Note: Different PC counts require careful handling for comparison
 # For direct comparison, use first 12 PCs from males

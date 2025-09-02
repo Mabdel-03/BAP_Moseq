@@ -8,7 +8,7 @@ This directory contains 25-dimensional principal component embeddings for male o
 - **Sample Size**: 33 mice
 - **Principal Components**: 25 PCs (optimal for male behavioral patterns)
 - **Environmental Conditions**: 4 conditions (EE, LNB, NGH, SI)
-- **Classification Performance**: 75.8% balanced accuracy
+- **Classification Performance**: 75.8% balanced accuracy (from offspring-specific MoSeq model)
 
 ## Files
 
@@ -33,7 +33,9 @@ PC1-PC25 (float): Principal component coordinates
 
 1. **Source Data Loading**:
    ```python
-   summary_df = pd.read_csv('FingerprintSummary_full.csv', index_col=[0, 1], header=[0, 1])
+   # Load from offspring-specific MoSeq model
+   summary_df = pd.read_csv('../../Fingerprint_Data/Offsprings/FingerprintSummary_full.csv.zip', 
+                           index_col=[0, 1], header=[0, 1])
    males_df = summary_df[summary_df.index.get_level_values('group').str.contains('Male')]
    ```
 
@@ -225,10 +227,12 @@ model = joblib.load('pca25_logreg.joblib')
 
 To reproduce these embeddings:
 
-1. **Load source data**: MoSeq fingerprint summary data
+1. **Load source data**: Offspring-specific MoSeq fingerprint data (`../../Fingerprint_Data/Offsprings/`)
 2. **Apply preprocessing**: Feature extraction and standardization (see notebook)
 3. **Train model**: Use provided hyperparameters or re-optimize
 4. **Generate embeddings**: Transform standardized features through trained PCA
+
+**Important**: Use the offspring-specific fingerprint data, not the maternal model data, to ensure population-appropriate feature extraction.
 
 **Key Parameters**:
 - PCA components: 25 (95% variance retention)

@@ -1,15 +1,48 @@
 # MoSeq Fingerprint Data
 
-This directory contains the raw fingerprint data from the MoSeq behavioral analysis pipeline and detailed documentation of how it was processed into the 495-dimensional feature matrix used for principal component analysis.
+This directory contains the raw fingerprint data from separate MoSeq behavioral analysis pipelines and detailed documentation of how it was processed into the 495-dimensional feature matrix used for principal component analysis.
 
 ## Overview
 
-The fingerprint data represents the output of the MoSeq (Motion Sequencing) behavioral analysis pipeline, which extracts quantitative behavioral features from mouse movement data. This raw data serves as the foundation for all subsequent principal component embeddings.
+The fingerprint data represents the output of the MoSeq (Motion Sequencing) behavioral analysis pipeline, which extracts quantitative behavioral features from mouse movement data. **Importantly, separate MoSeq models were trained for Moms and Offsprings**, resulting in population-specific fingerprint data that serves as the foundation for subsequent principal component embeddings.
 
-## Source Files
+## Directory Structure
 
-### `FingerprintSummary_full.csv`
-The primary input file containing behavioral fingerprints for all mice across different experimental groups.
+```
+Fingerprint_Data/
+├── Moms/
+│   ├── FingerprintSummary_full.csv.zip
+│   └── README.md
+├── Offsprings/
+│   ├── FingerprintSummary_full.csv.zip
+│   └── README.md
+└── README.md (this file)
+```
+
+## MoSeq Model Separation
+
+### Rationale for Separate Models
+The MoSeq pipeline was run separately for two populations:
+
+1. **Moms Model**: Trained exclusively on maternal mice behavioral data
+   - Population-specific behavioral patterns
+   - Optimized for maternal behavioral repertoire
+   - Located in: `Moms/FingerprintSummary_full.csv.zip`
+
+2. **Offsprings Model**: Trained exclusively on offspring mice behavioral data
+   - Population-specific behavioral patterns  
+   - Optimized for offspring behavioral repertoire
+   - Located in: `Offsprings/FingerprintSummary_full.csv.zip`
+
+### Benefits of Population-Specific Models
+- **Behavioral Specificity**: Captures population-specific movement patterns
+- **Feature Optimization**: Each model optimized for relevant behavioral repertoire
+- **Reduced Noise**: Eliminates cross-population behavioral variability
+- **Improved Sensitivity**: Better detection of condition-specific effects within populations
+
+## Common File Structure
+
+Both population-specific datasets share the same multi-index DataFrame structure:
 
 **File Structure**: Multi-index DataFrame
 - **Index Level 0**: Group identifier (contains sex and condition information)
@@ -17,8 +50,9 @@ The primary input file containing behavioral fingerprints for all mice across di
 - **Columns Level 0**: Behavioral metric type
 - **Columns Level 1**: Feature index/identifier
 
-### `FingerprintRangeDict_full.csv`
-Metadata file containing range and scaling information for the behavioral metrics.
+### Metadata Files
+Each directory may contain:
+- `FingerprintRangeDict_full.csv`: Range and scaling information (when available)
 
 ## Data Structure Analysis
 

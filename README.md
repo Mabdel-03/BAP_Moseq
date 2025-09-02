@@ -11,9 +11,13 @@ The repository is organized hierarchically by experimental groups:
 ```
 Data/
 ├── Fingerprint_Data/
-│   ├── FingerprintSummary_full.csv
-│   ├── FingerprintRangeDict_full.csv
-│   └── README.md (detailed 495-feature matrix documentation)
+│   ├── Moms/
+│   │   ├── FingerprintSummary_full.csv.zip (Mom-specific MoSeq model)
+│   │   └── README.md
+│   ├── Offsprings/
+│   │   ├── FingerprintSummary_full.csv.zip (Offspring-specific MoSeq model)
+│   │   └── README.md
+│   └── README.md (495-feature matrix documentation)
 └── PC_Embeddings/
     ├── Moms/
     │   ├── moms_PCA8_embedding.csv.gz
@@ -40,7 +44,9 @@ The mice were exposed to four different environmental conditions:
 ## Methodology Overview
 
 ### 1. Data Aggregation
-- Started with MoSeq pipeline output containing behavioral fingerprints (`Data/Fingerprint_Data/`)
+- Started with **population-specific MoSeq pipeline outputs** (`Data/Fingerprint_Data/`)
+  - Separate MoSeq models trained for Moms and Offsprings
+  - Population-specific behavioral feature optimization
 - Processed multi-index fingerprint summary data into 495-dimensional feature matrix
 - Aggregated multiple behavioral metrics including:
   - `dist_to_center_px`: Distance to center (pixels) - 99 features
@@ -69,10 +75,12 @@ The mice were exposed to four different environmental conditions:
 
 ### Embedding Files (`.csv`)
 Each embedding file contains:
-- **uuid**: Unique identifier for each mouse (UUID format)
-- **moseq_id**: BAP group identifier (session-based format)
+- **uuid**: Universal unique identifier for each mouse (UUID format)
+- **moseq_id**: BAP group identifier used for internal tracking (session format: session_YYYYMMDDHHMMSS)
 - **category**: Experimental condition (EE, LNB, NGH, SI)
 - **PC1, PC2, ..., PCn**: Principal component coordinates
+
+**Note**: The dual identifier system allows both universal cross-study compatibility (uuid) and BAP group-specific tracking (moseq_id).
 
 ### Model Files (`.joblib`)
 Saved trained models for reproducibility and future predictions.
