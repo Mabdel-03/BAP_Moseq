@@ -5,23 +5,19 @@ This directory contains principal component embeddings for offspring mice, strat
 ## Dataset Overview
 
 - **Population**: Offspring mice (stratified by sex)
-- **Principal Components**: 25 PCs (optimized for both male and female groups)
+- **Principal Components**: Sex-specific optimization (Males: 25 PCs, Females: 12 PCs)
 - **Environmental Conditions**: EE, LNB, NGH, SI
-- **Stratification**: Male and Female subgroups
+- **Sample Sizes**: 33 males, 33 females
 
 ## Directory Structure
 
 ```
 Offsprings/
 ├── Male/
-│   ├── offspring_PCA25_embedding.csv.gz
-│   ├── offspring_PCA25_embedding.pkl
-│   ├── pca25_logreg.joblib
+│   ├── males_final_data.csv (25 PCs)
 │   └── README.md
 ├── Female/
-│   ├── offspring_PCA25_embedding.csv.gz
-│   ├── offspring_PCA25_embedding.pkl
-│   ├── pca25_logreg.joblib
+│   ├── females_final_data.csv (12 PCs)
 │   └── README.md
 └── README.md (this file)
 ```
@@ -34,12 +30,18 @@ Sex stratification was performed because:
 2. **Statistical Power**: Separate analysis allows for detection of sex-specific effects
 3. **Model Performance**: Individual models may achieve better classification accuracy within sex groups
 
-### Shared Methodology
-Both male and female embeddings use identical processing:
-- Same 5 behavioral metrics
-- Same feature engineering pipeline
-- Same PCA hyperparameter optimization
-- Same validation approach (5-fold stratified CV)
+### Sex-Specific Optimization
+While both groups use identical processing pipelines, optimal results required different PC counts:
+
+**Males**: 25 principal components
+- Captures more behavioral complexity
+- 75.8% balanced accuracy
+- Better separation of environmental conditions
+
+**Females**: 12 principal components  
+- More parsimonious representation
+- [Performance to be specified]
+- Different behavioral pattern complexity
 
 ## Environmental Conditions
 
@@ -114,12 +116,17 @@ pipe = Pipeline([
 import pandas as pd
 
 # Load both male and female embeddings
-df_male = pd.read_csv('Male/offspring_PCA25_embedding.csv.gz')
-df_female = pd.read_csv('Female/offspring_PCA25_embedding.csv.gz')
+df_male = pd.read_csv('Male/males_final_data.csv')      # 25 PCs
+df_female = pd.read_csv('Female/females_final_data.csv')  # 12 PCs
 
-# Combine if needed
+# Note: Different PC counts require careful handling for comparison
+# For direct comparison, use first 12 PCs from males
+df_male_12pc = df_male[['uuid', 'moseq_id', 'category'] + 
+                       [f'PC{i+1}' for i in range(12)]]
+
+# Combine for comparative analysis
 df_combined = pd.concat([
-    df_male.assign(sex='Male'),
+    df_male_12pc.assign(sex='Male'),
     df_female.assign(sex='Female')
 ], ignore_index=True)
 ```

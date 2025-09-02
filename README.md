@@ -62,9 +62,10 @@ The mice were exposed to four different environmental conditions:
 
 ## File Formats
 
-### Embedding Files (`.csv.gz`)
+### Embedding Files (`.csv`)
 Each embedding file contains:
-- **uuid**: Unique identifier for each mouse
+- **uuid**: Unique identifier for each mouse (UUID format)
+- **moseq_id**: BAP group identifier (session-based format)
 - **category**: Experimental condition (EE, LNB, NGH, SI)
 - **PC1, PC2, ..., PCn**: Principal component coordinates
 
@@ -79,17 +80,22 @@ The embeddings can be loaded using pandas:
 import pandas as pd
 
 # Load embeddings
-df = pd.read_csv('path/to/embedding.csv.gz')
+df = pd.read_csv('path/to/embedding.csv')
 
-# Or load from pickle for faster access
-df = pd.read_pickle('path/to/embedding.pkl')
+# Data includes dual identifiers
+print("Identifiers available:")
+print(f"- uuid: {df['uuid'].iloc[0]}")  # UUID format
+print(f"- moseq_id: {df['moseq_id'].iloc[0]}")  # BAP group session format
 ```
 
 ## Performance Metrics
 
 Classification performance varies by group:
-- Male Offsprings: ~77.5% balanced accuracy with 25 PCs
-- [Add metrics for other groups as available]
+- **Male Offspring**: 75.8% balanced accuracy with 25 PCs (33 samples)
+- **Female Offspring**: [Performance with 12 PCs] (33 samples)
+- **Moms**: [Performance with 8 PCs]
+
+Note: Different groups required different numbers of principal components for optimal classification performance.
 
 ## Dependencies
 

@@ -6,27 +6,26 @@ This directory contains 25-dimensional principal component embeddings for male o
 
 - **Population**: Male offspring mice
 - **Sample Size**: 33 mice
-- **Principal Components**: 25 PCs (95% variance retention)
+- **Principal Components**: 25 PCs (optimal for male behavioral patterns)
 - **Environmental Conditions**: 4 conditions (EE, LNB, NGH, SI)
-- **Classification Performance**: 77.5% balanced accuracy
+- **Classification Performance**: 75.8% balanced accuracy
 
 ## Files
 
-### `offspring_PCA25_embedding.csv.gz`
-Primary data file containing the embeddings in compressed CSV format.
+### `males_final_data.csv`
+Primary data file containing the 25-dimensional embeddings.
 
 **Schema**:
 ```
-uuid (string): Unique mouse identifier (UUID format)
+uuid (string): Universal unique identifier (UUID format)
+moseq_id (string): BAP group identifier (session format: session_YYYYMMDDHHMMSS)
 category (string): Environmental condition {EE, LNB, NGH, SI}
 PC1-PC25 (float): Principal component coordinates
 ```
 
-### `offspring_PCA25_embedding.pkl`
-Pickle format for fast loading in Python environments.
-
-### `pca25_logreg.joblib` 
-Trained scikit-learn pipeline for reproducibility and predictions on new data.
+### Dual Identifier System
+- **uuid**: Universal identifier for cross-study compatibility
+- **moseq_id**: BAP group-specific identifier used for internal tracking and session identification
 
 ## Methodology Details
 
@@ -111,6 +110,22 @@ Trained scikit-learn pipeline for reproducibility and predictions on new data.
 weighted avg    0.771     0.758     0.758        33
 ```
 
+**Confusion Matrix** (Cross-validated):
+```
+         Predicted Class
+True     EE    LNB   NGH   SI
+EE      0.83  0.00  0.17  0.00
+LNB     0.00  0.71  0.14  0.14  
+NGH     0.00  0.08  0.85  0.08
+SI      0.00  0.00  0.43  0.57
+```
+
+**Key Observations**:
+- EE condition shows excellent precision (100%) with good recall (83%)
+- NGH condition has highest recall (85%) but moderate precision (69%)
+- SI condition shows most confusion, primarily with NGH (43% misclassification)
+- LNB shows balanced performance across precision and recall
+
 ## Statistical Analysis
 
 ### Principal Component Significance
@@ -134,7 +149,12 @@ import pandas as pd
 import numpy as np
 
 # Load the embeddings
-df = pd.read_csv('offspring_PCA25_embedding.csv.gz')
+df = pd.read_csv('males_final_data.csv')
+
+# Check dual identifiers
+print("Available identifiers:")
+print(f"UUID example: {df['uuid'].iloc[0]}")
+print(f"MoSeq ID example: {df['moseq_id'].iloc[0]}")
 
 # Basic statistics
 print(f"Dataset shape: {df.shape}")

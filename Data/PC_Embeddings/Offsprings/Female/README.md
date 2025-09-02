@@ -1,32 +1,31 @@
 # Female Offspring PC Embeddings
 
-This directory contains 25-dimensional principal component embeddings for female offspring mice, derived from comprehensive MoSeq behavioral analysis.
+This directory contains 12-dimensional principal component embeddings for female offspring mice, derived from comprehensive MoSeq behavioral analysis.
 
 ## Dataset Specifications
 
 - **Population**: Female offspring mice
-- **Sample Size**: [To be specified based on actual data]
-- **Principal Components**: 25 PCs (95% variance retention)
+- **Sample Size**: 33 mice
+- **Principal Components**: 12 PCs (optimal for female behavioral patterns)
 - **Environmental Conditions**: 4 conditions (EE, LNB, NGH, SI)
-- **Classification Performance**: [To be added when available]
+- **Classification Performance**: [Performance with 12 PCs - to be specified]
 
 ## Files
 
-### `offspring_PCA25_embedding.csv.gz`
-Primary data file containing the embeddings in compressed CSV format.
+### `females_final_data.csv`
+Primary data file containing the 12-dimensional embeddings.
 
 **Schema**:
 ```
-uuid (string): Unique mouse identifier (UUID format)
+uuid (string): Universal unique identifier (UUID format)
+moseq_id (string): BAP group identifier (session format: session_YYYYMMDDHHMMSS)
 category (string): Environmental condition {EE, LNB, NGH, SI}
-PC1-PC25 (float): Principal component coordinates
+PC1-PC12 (float): Principal component coordinates (optimal for females)
 ```
 
-### `offspring_PCA25_embedding.pkl`
-Pickle format for fast loading in Python environments.
-
-### `pca25_logreg.joblib` 
-Trained scikit-learn pipeline for reproducibility and predictions on new data.
+### Dual Identifier System
+- **uuid**: Universal identifier for cross-study compatibility
+- **moseq_id**: BAP group-specific identifier used for internal tracking and session identification
 
 ## Methodology
 
@@ -39,14 +38,32 @@ This dataset was processed using the exact same methodology as the male offsprin
 4. **Hyperparameter Optimization**: Same grid search parameters
 5. **Validation**: 5-fold stratified cross-validation
 
-### Sex-Specific Considerations
+### Sex-Specific Optimization
 - Model trained exclusively on female offspring data
-- Hyperparameters optimized specifically for female behavioral patterns
+- **Optimal Components**: 12 PCs (vs. 25 PCs for males)
+- Reflects different behavioral complexity patterns between sexes
 - Allows detection of sex-specific responses to environmental conditions
+
+**Confusion Matrix** (Cross-validated with 12 PCs):
+```
+         Predicted Class
+True     EE    LNB   NGH   SI
+EE      0.67  0.00  0.33  0.00
+LNB     0.00  0.29  0.71  0.00  
+NGH     0.00  0.15  0.85  0.00
+SI      0.00  0.00  0.14  0.86
+```
+
+**Key Observations**:
+- SI condition shows excellent classification (86% recall)
+- NGH condition maintains high recall (85%) 
+- EE shows moderate performance with some NGH confusion (33%)
+- LNB shows lower recall (29%) with NGH confusion (71%)
+- Overall: Different confusion patterns compared to males
 
 ## Behavioral Metrics
 
-The 25 principal components capture variance from:
+The 12 principal components capture variance from:
 
 1. **Spatial Behavior** (`dist_to_center_px`): 
    - Arena exploration patterns
@@ -128,7 +145,7 @@ import pandas as pd
 import numpy as np
 
 # Load female offspring embeddings
-df_female = pd.read_csv('offspring_PCA25_embedding.csv.gz')
+df_female = pd.read_csv('females_final_data.csv')
 
 # Quick info
 print(f"Shape: {df_female.shape}")
@@ -204,7 +221,7 @@ explained_var = pca.explained_variance_ratio_
 print(f"Cumulative variance explained: {explained_var.cumsum()[-1]:.3f}")
 
 # Feature importance (loadings)
-loadings = pca.components_  # Shape: (25, 495)
+loadings = pca.components_  # Shape: (12, 495)
 ```
 
 ## Performance Metrics
@@ -212,12 +229,13 @@ loadings = pca.components_  # Shape: (25, 495)
 ### Cross-Validation Results
 - **Validation Method**: 5-fold stratified cross-validation
 - **Primary Metric**: Balanced accuracy (accounts for class imbalance)
-- **Results**: [To be added when available]
+- **Optimal Components**: 12 PCs
+- **Results**: [Performance metrics to be added]
 
 ### Model Interpretability
-- **Variance Explained**: 95% by 25 principal components
+- **Variance Explained**: Optimized with 12 principal components
 - **Feature Loadings**: Available in trained model
-- **Separability**: [Add condition separability analysis when available]
+- **Separability**: Better SI and NGH separation compared to males
 
 ## Quality Assurance
 
@@ -229,12 +247,12 @@ loadings = pca.components_  # Shape: (25, 495)
 ## Comparison with Male Offspring
 
 - **Same Methodology**: Identical processing pipeline for direct comparison
-- **Same PC Count**: 25 components for consistent dimensionality
-- **Performance Comparison**: [To be added when both analyses complete]
+- **Different PC Count**: 12 components (vs. 25 for males) - reflects sex-specific behavioral complexity
+- **Performance Comparison**: [To be added when female analysis complete]
 
 ## Notes
 
-- Embeddings capture 95% of original behavioral variance in 25 dimensions
+- Embeddings optimized to 12 dimensions for female-specific behavioral patterns
 - Model optimized specifically for female behavioral patterns
 - Compatible with male offspring embeddings for comparative analysis
 - All preprocessing steps documented for reproducibility

@@ -48,8 +48,10 @@ Input Features (495D) → StandardScaler → PCA → Logistic Regression
 - **Sample Size**: [To be specified]
 
 ### Offsprings (`Offsprings/`)
-- **Males** (`Male/`): 25 PCs, 33 samples, 77.5% balanced accuracy
-- **Females** (`Female/`): 25 PCs, [sample size to be specified]
+- **Males** (`Male/`): 25 PCs, 33 samples, 75.8% balanced accuracy
+- **Females** (`Female/`): 12 PCs, 33 samples, [performance to be specified]
+
+**Note**: Different optimal PC counts reflect sex-specific behavioral patterns.
 
 ## Environmental Conditions
 
@@ -74,12 +76,13 @@ All embedding files follow the same schema:
 
 | Column | Type | Description |
 |--------|------|-------------|
-| `uuid` | string | Unique mouse identifier |
+| `uuid` | string | Universal unique identifier |
+| `moseq_id` | string | BAP group identifier (session format) |
 | `category` | string | Environmental condition (EE/LNB/NGH/SI) |
 | `PC1` | float | First principal component |
 | `PC2` | float | Second principal component |
 | `...` | float | Additional principal components |
-| `PCn` | float | Final principal component |
+| `PCn` | float | Final principal component (varies: 8/12/25) |
 
 ## Usage Examples
 
@@ -87,11 +90,11 @@ All embedding files follow the same schema:
 ```python
 import pandas as pd
 
-# Load male offspring embeddings
-df_male = pd.read_csv('Offsprings/Male/offspring_PCA25_embedding.csv.gz')
+# Load male offspring embeddings (25 PCs)
+df_male = pd.read_csv('Offsprings/Male/males_final_data.csv')
 
-# Quick loading with pickle
-df_male = pd.read_pickle('Offsprings/Male/offspring_PCA25_embedding.pkl')
+# Load female offspring embeddings (12 PCs)  
+df_female = pd.read_csv('Offsprings/Female/females_final_data.csv')
 ```
 
 ### Basic Analysis

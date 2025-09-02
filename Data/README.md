@@ -35,14 +35,16 @@ Offspring mice stratified by sex:
 
 #### Males
 - Male offspring mice
-- Embedding: 25 principal components  
-- File: `PC_Embeddings/Offsprings/Male/offspring_PCA25_embedding.csv.gz`
-- Classification accuracy: ~77.5% balanced accuracy
+- Sample size: 33 animals
+- Embedding: 25 principal components (optimal)
+- File: `PC_Embeddings/Offsprings/Male/males_final_data.csv`
+- Classification accuracy: 75.8% balanced accuracy
 
 #### Females  
 - Female offspring mice
-- Embedding: 25 principal components
-- File: `PC_Embeddings/Offsprings/Female/offspring_PCA25_embedding.csv.gz`
+- Sample size: 33 animals
+- Embedding: 12 principal components (optimal)
+- File: `PC_Embeddings/Offsprings/Female/females_final_data.csv`
 
 ## Environmental Conditions
 
@@ -54,9 +56,14 @@ Offspring mice stratified by sex:
 ## Data Format
 
 Each embedding file contains:
-- `uuid`: Unique mouse identifier
+- `uuid`: Unique mouse identifier (UUID format)
+- `moseq_id`: BAP group identifier (session-based format)
 - `category`: Environmental condition (EE, LNB, NGH, SI)
 - `PC1, PC2, ..., PCn`: Principal component coordinates
+
+### Dual Identifier System
+- **uuid**: Universal unique identifier for cross-study compatibility
+- **moseq_id**: BAP group-specific identifier following session naming convention
 
 ## Technical Details
 
@@ -68,6 +75,12 @@ Each embedding file contains:
 
 ## File Formats
 
-- **CSV.gz**: Compressed CSV files for easy sharing and analysis
-- **PKL**: Pickle files for faster loading in Python
+- **CSV**: Uncompressed CSV files for easy sharing and analysis
+- **PKL**: Pickle files for faster loading in Python (when available)
 - **Joblib**: Trained model files for reproducibility
+
+## Important Notes
+
+- **Optimal PC counts vary by group**: Males use 25 PCs, Females use 12 PCs for best classification
+- **Dual identifiers**: Each mouse has both `uuid` (universal) and `moseq_id` (BAP group format)
+- **Sample sizes**: 33 animals per offspring group
