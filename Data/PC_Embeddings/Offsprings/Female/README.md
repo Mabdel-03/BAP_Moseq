@@ -8,7 +8,7 @@ This directory contains 12-dimensional principal component embeddings for female
 - **Sample Size**: 33 mice
 - **Principal Components**: 12 PCs (optimal for female behavioral patterns)
 - **Environmental Conditions**: 4 conditions (EE, LNB, NGH, SI)
-- **Classification Performance**: Optimized with 12 PCs (from separate offspring-specific MoSeq model)
+- **Classification Performance**: 69.7% accuracy, 66.4% balanced recall with 12 PCs
 
 ## Files
 
@@ -56,11 +56,11 @@ SI      0.00  0.00  0.14  0.86
 ```
 
 **Key Observations**:
-- SI condition shows excellent classification (86% recall)
-- NGH condition maintains high recall (85%) 
-- EE shows moderate performance with some NGH confusion (33%)
-- LNB shows lower recall (29%) with NGH confusion (71%)
-- Overall: Different confusion patterns compared to males
+- SI condition shows excellent performance (100% precision, 86% recall)
+- EE condition shows perfect precision (100%) but moderate recall (67%)
+- NGH condition has high recall (85%) but lower precision (58%)
+- LNB shows challenging classification (50% precision, 29% recall)
+- Overall: Different confusion patterns compared to males, with better SI separation
 
 ## Behavioral Metrics
 
@@ -96,14 +96,22 @@ The 12 principal components capture variance from:
 - **EE**: Enriched Environment
   - Enhanced sensory and motor stimulation
   - Complex housing with enrichment items
+  - Social interaction opportunities
   
-- **LNB**: [Condition description needed]
-- **NGH**: [Condition description needed]
+- **LNB**: Limited Nesting and Bedding
+  - Restricted nesting materials
+  - Minimal bedding provision
+  - Reduced comfort materials
+
+- **NGH**: Normal Growth Housing
+  - Standard laboratory housing conditions
+  - Normal nesting and bedding materials
+  - Baseline control condition
 
 - **SI**: Social Isolation
   - Individual housing
   - Reduced social stimulation
-  - Standard laboratory conditions
+  - Minimal environmental enrichment
 
 ## Technical Implementation
 
@@ -231,7 +239,23 @@ loadings = pca.components_  # Shape: (12, 495)
 - **Validation Method**: 5-fold stratified cross-validation
 - **Primary Metric**: Balanced accuracy (accounts for class imbalance)
 - **Optimal Components**: 12 PCs
+- **Overall Accuracy**: 69.7%
+- **Balanced Recall**: 66.4%
+- **Macro F1-Score**: 69.4%
 - **Source Model**: Offspring-specific MoSeq training (separate from Moms model)
+
+**Per-Class Performance**:
+```
+              precision    recall  f1-score   support
+        EE      1.000     0.667     0.800         6
+       LNB      0.500     0.286     0.364         7
+       NGH      0.579     0.846     0.688        13
+        SI      1.000     0.857     0.923         7
+
+  accuracy                          0.697        33
+ macro avg      0.770     0.664     0.694        33
+weighted avg    0.728     0.697     0.689        33
+```
 
 ### Model Interpretability
 - **Variance Explained**: Optimized with 12 principal components

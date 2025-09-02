@@ -48,8 +48,8 @@ Input Features (495D) → StandardScaler → PCA → Logistic Regression
 - **Sample Size**: [To be specified]
 
 ### Offsprings (`Offsprings/`)
-- **Males** (`Male/`): 25 PCs, 33 samples, 75.8% balanced accuracy
-- **Females** (`Female/`): 12 PCs, 33 samples, [performance to be specified]
+- **Males** (`Male/`): 25 PCs, 33 samples, 75.8% accuracy, 74.1% balanced recall
+- **Females** (`Female/`): 12 PCs, 33 samples, 69.7% accuracy, 66.4% balanced recall
 
 **Note**: Different optimal PC counts reflect sex-specific behavioral patterns.
 
@@ -58,8 +58,8 @@ Input Features (495D) → StandardScaler → PCA → Logistic Regression
 All groups were exposed to four experimental conditions:
 
 - **EE**: Enriched Environment
-- **LNB**: [Condition description needed]
-- **NGH**: [Condition description needed]  
+- **LNB**: Limited Nesting and Bedding
+- **NGH**: Normal Growth Housing
 - **SI**: Social Isolation
 
 ## File Structure

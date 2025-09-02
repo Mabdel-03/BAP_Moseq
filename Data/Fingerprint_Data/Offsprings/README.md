@@ -45,8 +45,8 @@ While the MoSeq model was trained on all offspring data, subsequent analysis str
 ### Environmental Conditions
 Offspring mice were exposed to:
 - **EE**: Enriched Environment
-- **LNB**: [Condition description needed]
-- **NGH**: [Condition description needed]
+- **LNB**: Limited Nesting and Bedding
+- **NGH**: Normal Growth Housing
 - **SI**: Social Isolation
 
 ## Processing Pipeline

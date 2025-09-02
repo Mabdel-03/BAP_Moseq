@@ -40,8 +40,8 @@ Behavioral Metrics (5 types × 99 features = 495 total):
 ### Environmental Conditions
 Maternal mice were exposed to:
 - **EE**: Enriched Environment
-- **LNB**: [Condition description needed]
-- **NGH**: [Condition description needed]
+- **LNB**: Limited Nesting and Bedding
+- **NGH**: Normal Growth Housing
 - **SI**: Social Isolation
 
 ## Processing Pipeline

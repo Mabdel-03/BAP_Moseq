@@ -91,9 +91,9 @@ plt.show()
 ## Environmental Conditions
 
 - **EE**: Enriched Environment - Enhanced sensory and motor stimulation
-- **LNB**: [Condition description needed]
-- **NGH**: [Condition description needed]
-- **SI**: Social Isolation - Reduced social interaction
+- **LNB**: Limited Nesting and Bedding - Restricted nesting materials and minimal bedding
+- **NGH**: Normal Growth Housing - Standard laboratory housing conditions (baseline control)
+- **SI**: Social Isolation - Reduced social interaction and individual housing
 
 ## Notes
 

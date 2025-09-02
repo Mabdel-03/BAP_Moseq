@@ -55,12 +55,13 @@ Offspring mice stratified by sex:
 - Sample size: 33 animals
 - Embedding: 12 principal components (optimal)
 - File: `PC_Embeddings/Offsprings/Female/females_final_data.csv`
+- Classification accuracy: 69.7% accuracy, 66.4% balanced recall
 
 ## Environmental Conditions
 
 - **EE**: Enriched Environment
-- **LNB**: [Condition description needed]
-- **NGH**: [Condition description needed]
+- **LNB**: Limited Nesting and Bedding
+- **NGH**: Normal Growth Housing
 - **SI**: Social Isolation
 
 ## Data Format

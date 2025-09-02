@@ -52,12 +52,19 @@ All offspring were exposed to one of four conditions:
   - Increased motor challenges
   - Social interaction opportunities
 
-- **LNB**: [Condition description needed]
-- **NGH**: [Condition description needed]
+- **LNB**: Limited Nesting and Bedding
+  - Restricted nesting materials
+  - Minimal bedding provision
+  - Standard housing with reduced comfort materials
+
+- **NGH**: Normal Growth Housing
+  - Standard laboratory housing conditions
+  - Normal nesting and bedding materials
+  - Baseline control condition
 
 - **SI**: Social Isolation
   - Reduced social contact
-  - Standard housing conditions
+  - Individual housing
   - Minimal environmental enrichment
 
 ## Technical Specifications

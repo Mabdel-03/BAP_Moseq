@@ -37,8 +37,8 @@ Data/
 The mice were exposed to four different environmental conditions:
 
 - **EE**: Enriched Environment
-- **LNB**: [Description needed]
-- **NGH**: [Description needed]  
+- **LNB**: Limited Nesting and Bedding
+- **NGH**: Normal Growth Housing
 - **SI**: Social Isolation
 
 ## Methodology Overview
@@ -104,9 +104,9 @@ print(f"- moseq_id: {df['moseq_id'].iloc[0]}")  # BAP group session format
 ## Performance Metrics
 
 Classification performance varies by group:
-- **Male Offspring**: 75.8% balanced accuracy with 25 PCs (33 samples)
-- **Female Offspring**: [Performance with 12 PCs] (33 samples)
-- **Moms**: [Performance with 8 PCs]
+- **Male Offspring**: 75.8% accuracy, 74.1% balanced recall with 25 PCs (33 samples)
+- **Female Offspring**: 69.7% accuracy, 66.4% balanced recall with 12 PCs (33 samples)
+- **Moms**: [Performance with 8 PCs to be specified]
 
 Note: Different groups required different numbers of principal components for optimal classification performance.
 
