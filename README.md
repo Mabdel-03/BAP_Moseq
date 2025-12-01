@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains behavioral analysis data and code for the BAP (Behavioral Analysis Pipeline) project using Motion Sequencing (MoSeq). The project investigates how different early-life environmental conditions affect mouse behavior across maternal and offspring populations.
+This repository contains behavioral analysis data and code for the BAP project using Motion Sequencing (MoSeq). The project investigates how different early-life environmental conditions affect mouse behavior across maternal and offspring populations.
 
 ## Experimental Design
 
