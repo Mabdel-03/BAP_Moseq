@@ -1,0 +1,1042 @@
+files:
+- filename: 2024-05-02_12-53-41_ngh3_f2_050224_ngh3_f2_050224_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH3_F2_050224
+    StartTime: '2024-05-02T12:53:41.3486205-04:00'
+    SubjectName: NGH3_F2_050224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_12-53-41_ngh3_f2_050224_ngh3_f2_050224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_12-53-41_ngh3_f2_050224_ngh3_f2_050224_results_00.yaml]
+  uuid: 45dbf179-6414-4d27-9c82-346e4147456f
+- filename: 2024-03-23_16-06-58_trial-29_si2_f_032324_trial-29_si2_f_032324_results_00.h5
+  group: SI_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 29_SI2_F_032324
+    StartTime: '2024-03-23T16:06:58.2676451-04:00'
+    SubjectName: Trial 29_SI2_F_032324
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_16-06-58_trial-29_si2_f_032324_trial-29_si2_f_032324_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_16-06-58_trial-29_si2_f_032324_trial-29_si2_f_032324_results_00.yaml]
+  uuid: d855374d-53d6-4e26-a52d-74f12016d7d7
+- filename: 2024-03-22_12-14-29_trial-12_si7_m_032224_trial-12_si7_m_032224_results_00.h5
+  group: SI_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 12_SI7_M_032224
+    StartTime: '2024-03-22T12:14:29.1047692-04:00'
+    SubjectName: Trial 12_SI7_M_032224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_12-14-29_trial-12_si7_m_032224_trial-12_si7_m_032224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_12-14-29_trial-12_si7_m_032224_trial-12_si7_m_032224_results_00.yaml]
+  uuid: cb434955-35aa-49f5-a778-42026bebee14
+- filename: 2024-05-01_16-09-03_lnb2_m3_050124_lnb2_m3_050124_results_00.h5
+  group: LNB_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: LNB2_M3_050124
+    StartTime: '2024-05-01T16:09:03.0854233-04:00'
+    SubjectName: LNB2_M3_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_16-09-03_lnb2_m3_050124_lnb2_m3_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_16-09-03_lnb2_m3_050124_lnb2_m3_050124_results_00.yaml]
+  uuid: 2fbd83fc-7242-4e10-8e51-951589e525ef
+- filename: 2024-03-24_12-36-44_trial-33_si8_f_032424_trial-33_si8_f_032424_results_00.h5
+  group: SI_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 33_SI8_F_032424
+    StartTime: '2024-03-24T12:36:44.3185271-04:00'
+    SubjectName: Trial 33_SI8_F_032424
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_12-36-44_trial-33_si8_f_032424_trial-33_si8_f_032424_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_12-36-44_trial-33_si8_f_032424_trial-33_si8_f_032424_results_00.yaml]
+  uuid: 075b0d14-ab7d-4116-a41a-96238e989a76
+- filename: 2024-05-01_17-07-17_ngh2_m2_050124_ngh2_m2_050124_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH2_M2_050124
+    StartTime: '2024-05-01T17:07:17.6283237-04:00'
+    SubjectName: NGH2_M2_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_17-07-17_ngh2_m2_050124_ngh2_m2_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_17-07-17_ngh2_m2_050124_ngh2_m2_050124_results_00.yaml]
+  uuid: 7161ff1a-1db8-4f7b-b51e-535978878cde
+- filename: 2024-03-24_17-35-16_trial-43_ngh2_f4_032424_trial-43_ngh2_f4_032424_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 43_NGH2_F4_032424
+    StartTime: '2024-03-24T17:35:16.736479-04:00'
+    SubjectName: Trial 43_NGH2_F4_032424
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_17-35-16_trial-43_ngh2_f4_032424_trial-43_ngh2_f4_032424_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_17-35-16_trial-43_ngh2_f4_032424_trial-43_ngh2_f4_032424_results_00.yaml]
+  uuid: 48c62a29-26bd-4465-a375-de507a202c3a
+- filename: 2024-03-24_15-07-54_trial-38_ee4_f2_032424_trial-38_ee4_f2_032424_results_00.h5
+  group: EE_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 38_EE4_F2_032424
+    StartTime: '2024-03-24T15:07:54.9419728-04:00'
+    SubjectName: Trial 38_EE4_F2_032424
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_15-07-54_trial-38_ee4_f2_032424_trial-38_ee4_f2_032424_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_15-07-54_trial-38_ee4_f2_032424_trial-38_ee4_f2_032424_results_00.yaml]
+  uuid: 3d5c8570-ee1a-4a69-b9f2-ee1fcb70740a
+- filename: 2024-03-21_16-40-47_trial-9_si5_m_032124_trial-9_si5_m_032124_results_00.h5
+  group: SI_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 9_SI5_M_032124
+    StartTime: '2024-03-21T16:40:47.6166789-04:00'
+    SubjectName: Trial 9_SI5_M_032124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_16-40-47_trial-9_si5_m_032124_trial-9_si5_m_032124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_16-40-47_trial-9_si5_m_032124_trial-9_si5_m_032124_results_00.yaml]
+  uuid: 7a234f18-19a1-487f-954e-6c57a61d8207
+- filename: 2024-03-24_16-37-15_trial-41_ngh2_f2_032424_trial-41_ngh2_f2_032424_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 41_NGH2_F2_032424
+    StartTime: '2024-03-24T16:37:15.9640663-04:00'
+    SubjectName: Trial 41_NGH2_F2_032424
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_16-37-15_trial-41_ngh2_f2_032424_trial-41_ngh2_f2_032424_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_16-37-15_trial-41_ngh2_f2_032424_trial-41_ngh2_f2_032424_results_00.yaml]
+  uuid: 5572b22b-5a13-4c75-a6c3-5bf1196931a2
+- filename: 2024-05-02_13-21-42_ngh3_f3_050224_ngh3_f3_050224_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH3_F3_050224
+    StartTime: '2024-05-02T13:21:42.7610356-04:00'
+    SubjectName: NGH3_F3_050224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_13-21-42_ngh3_f3_050224_ngh3_f3_050224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_13-21-42_ngh3_f3_050224_ngh3_f3_050224_results_00.yaml]
+  uuid: 51520878-f9a3-4bc7-9af7-78c0e8c66ade
+- filename: 2024-05-02_15-54-38_ngh4_f1_050224_ngh4_f1_050224_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH4_F1_050224
+    StartTime: '2024-05-02T15:54:38.681164-04:00'
+    SubjectName: NGH4_F1_050224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_15-54-38_ngh4_f1_050224_ngh4_f1_050224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_15-54-38_ngh4_f1_050224_ngh4_f1_050224_results_00.yaml]
+  uuid: 0263fdfe-7732-458a-a271-55c81fcf75a4
+- filename: 2024-05-01_14-43-42_lnb1_m4_050124_lnb1_m4_050124_results_00.h5
+  group: LNB_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: LNB1_M4_050124
+    StartTime: '2024-05-01T14:43:42.3514341-04:00'
+    SubjectName: LNB1_M4_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_14-43-42_lnb1_m4_050124_lnb1_m4_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_14-43-42_lnb1_m4_050124_lnb1_m4_050124_results_00.yaml]
+  uuid: 2a8c14c1-14c8-4056-8d09-44b41c3b401b
+- filename: 2024-03-24_13-32-52_trial-35_si12_f_032424_trial-35_si12_f_032424_results_00.h5
+  group: SI_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 35_SI12_F_032424
+    StartTime: '2024-03-24T13:32:52.9936423-04:00'
+    SubjectName: Trial 35_SI12_F_032424
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_13-32-52_trial-35_si12_f_032424_trial-35_si12_f_032424_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_13-32-52_trial-35_si12_f_032424_trial-35_si12_f_032424_results_00.yaml]
+  uuid: 55521966-f622-4b77-b6bc-317e0ae92706
+- filename: 2024-05-01_12-08-18_ngh1_m3_050124_ngh1_m3_050124_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH1_M3_050124
+    StartTime: '2024-05-01T12:08:18.5545089-04:00'
+    SubjectName: NGH1_M3_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_12-08-18_ngh1_m3_050124_ngh1_m3_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_12-08-18_ngh1_m3_050124_ngh1_m3_050124_results_00.yaml]
+  uuid: 2bb08403-5fa9-4fdf-9f54-b92141d0abd3
+- filename: 2024-05-02_12-25-55_ngh3_f1_050224_ngh3_f1_050224_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH3_F1_050224
+    StartTime: '2024-05-02T12:25:55.4828902-04:00'
+    SubjectName: NGH3_F1_050224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_12-25-55_ngh3_f1_050224_ngh3_f1_050224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_12-25-55_ngh3_f1_050224_ngh3_f1_050224_results_00.yaml]
+  uuid: b49c5407-c6d1-4aa1-87c7-ac8adf400046
+- filename: 2024-05-01_15-13-46_lnb2_m1_050124_lnb2_m1_050124_results_00.h5
+  group: LNB_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: LNB2_M1_050124
+    StartTime: '2024-05-01T15:13:46.9825068-04:00'
+    SubjectName: LNB2_M1_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_15-13-46_lnb2_m1_050124_lnb2_m1_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_15-13-46_lnb2_m1_050124_lnb2_m1_050124_results_00.yaml]
+  uuid: 0574ef2d-0435-4ed9-8ea6-d39dcc0f70fe
+- filename: 2024-03-23_13-30-46_trial-24_ee2_f1_032324_trial-24_ee2_f1_032324_results_00.h5
+  group: EE_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 24_EE2_F1_032324
+    StartTime: '2024-03-23T13:30:46.3874597-04:00'
+    SubjectName: Trial 24_EE2_F1_032324
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_13-30-46_trial-24_ee2_f1_032324_trial-24_ee2_f1_032324_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_13-30-46_trial-24_ee2_f1_032324_trial-24_ee2_f1_032324_results_00.yaml]
+  uuid: aef17057-1f98-4525-b1d5-83ad07bc8d66
+- filename: 2024-05-01_13-19-22_lnb1_m1_050124_lnb1_m1_050124_results_00.h5
+  group: LNB_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: LNB1_M1_050124
+    StartTime: '2024-05-01T13:19:22.6517515-04:00'
+    SubjectName: LNB1_M1_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_13-19-22_lnb1_m1_050124_lnb1_m1_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_13-19-22_lnb1_m1_050124_lnb1_m1_050124_results_00.yaml]
+  uuid: 6723531c-e3be-4439-993d-27d8cfe58216
+- filename: 2024-05-02_13-50-20_ngh3_f4_050224_ngh3_f4_050224_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH3_F4_050224
+    StartTime: '2024-05-02T13:50:20.6648129-04:00'
+    SubjectName: NGH3_F4_050224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_13-50-20_ngh3_f4_050224_ngh3_f4_050224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_13-50-20_ngh3_f4_050224_ngh3_f4_050224_results_00.yaml]
+  uuid: 76cd3aa6-96c1-4e1a-8ae6-0931ac7edccc
+- filename: 2024-05-01_17-35-13_ngh2_m3_050124_ngh2_m3_050124_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH2_M3_050124
+    StartTime: '2024-05-01T17:35:13.1248465-04:00'
+    SubjectName: NGH2_M3_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_17-35-13_ngh2_m3_050124_ngh2_m3_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_17-35-13_ngh2_m3_050124_ngh2_m3_050124_results_00.yaml]
+  uuid: 3244c8da-dfcd-495f-bbf5-00b152d29ef5
+- filename: 2024-03-21_14-08-17_trial-5_ee1_m1_032124_trial-5_ee1_m1_032124_results_00.h5
+  group: EE_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 5_EE1_M1_032124
+    StartTime: '2024-03-21T14:08:17.7540268-04:00'
+    SubjectName: Trial 5_EE1_M1_032124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_14-08-17_trial-5_ee1_m1_032124_trial-5_ee1_m1_032124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_14-08-17_trial-5_ee1_m1_032124_trial-5_ee1_m1_032124_results_00.yaml]
+  uuid: f51a9f1c-bca1-4d65-a134-8da61944cbac
+- filename: 2024-03-23_16-37-57_trial-30_si16_f_032324_trial-30_si16_f_032324_results_00.h5
+  group: SI_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 30_SI16_F_032324
+    StartTime: '2024-03-23T16:37:57.1145831-04:00'
+    SubjectName: Trial 30_SI16_F_032324
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_16-37-57_trial-30_si16_f_032324_trial-30_si16_f_032324_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_16-37-57_trial-30_si16_f_032324_trial-30_si16_f_032324_results_00.yaml]
+  uuid: 86553620-0a6d-4c6e-bc40-97fb234e5dd6
+- filename: 2024-03-21_12-06-51_trial-1_ngh1_m1_032124_trial-1_ngh1_m1_032124_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 1_NGH1_M1_032124
+    StartTime: '2024-03-21T12:06:51.5522096-04:00'
+    SubjectName: Trial 1_NGH1_M1_032124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_12-06-51_trial-1_ngh1_m1_032124_trial-1_ngh1_m1_032124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_12-06-51_trial-1_ngh1_m1_032124_trial-1_ngh1_m1_032124_results_00.yaml]
+  uuid: dd026f13-1243-46dd-bc68-c34a614f22d2
+- filename: 2024-05-02_15-24-26_lnb3_f3_050224_lnb3_f3_050224_results_00.h5
+  group: LNB_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: LNB3_F3_050224
+    StartTime: '2024-05-02T15:24:26.7132283-04:00'
+    SubjectName: LNB3_F3_050224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_15-24-26_lnb3_f3_050224_lnb3_f3_050224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_15-24-26_lnb3_f3_050224_lnb3_f3_050224_results_00.yaml]
+  uuid: 4733895c-7845-4a16-8802-c8cd77651c26
+- filename: 2024-03-22_14-20-11_trial-16_ee3_m1_032224_trial-16_ee3_m1_032224_results_00.h5
+  group: EE_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 16_EE3_M1_032224
+    StartTime: '2024-03-22T14:20:11.8815756-04:00'
+    SubjectName: Trial 16_EE3_M1_032224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_14-20-11_trial-16_ee3_m1_032224_trial-16_ee3_m1_032224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_14-20-11_trial-16_ee3_m1_032224_trial-16_ee3_m1_032224_results_00.yaml]
+  uuid: 21a1147c-db53-464e-a169-164f4cdd1b5e
+- filename: 2024-05-01_11-12-18_ngh1_m1_050124_ngh1_m1_050124_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH1_M1_050124
+    StartTime: '2024-05-01T11:12:18.4942992-04:00'
+    SubjectName: NGH1_M1_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_11-12-18_ngh1_m1_050124_ngh1_m1_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_11-12-18_ngh1_m1_050124_ngh1_m1_050124_results_00.yaml]
+  uuid: c0a2906e-14a1-409f-9241-70ae4749447b
+- filename: 2024-03-24_16-08-01_trial-40_ngh2_f1_032424_trial-40_ngh2_f1_032424_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 40_NGH2_F1_032424
+    StartTime: '2024-03-24T16:08:01.5725903-04:00'
+    SubjectName: Trial 40_NGH2_F1_032424
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_16-08-01_trial-40_ngh2_f1_032424_trial-40_ngh2_f1_032424_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_16-08-01_trial-40_ngh2_f1_032424_trial-40_ngh2_f1_032424_results_00.yaml]
+  uuid: 9d1eab22-fcdf-4a1b-b260-d86f3cae711a
+- filename: 2024-03-24_17-05-25_trial-42_ngh2_f3_032424_trial-42_ngh2_f3_032424_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 42_NGH2_F3_032424
+    StartTime: '2024-03-24T17:05:25.6934253-04:00'
+    SubjectName: Trial 42_NGH2_F3_032424
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_17-05-25_trial-42_ngh2_f3_032424_trial-42_ngh2_f3_032424_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_17-05-25_trial-42_ngh2_f3_032424_trial-42_ngh2_f3_032424_results_00.yaml]
+  uuid: 6bf30007-f4db-4ea9-8a17-26614bdca76e
+- filename: 2024-03-23_12-27-25_trial-22_ngh4_f1_032324_trial-22_ngh4_f1_032324_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 22_NGH4_F1_032324
+    StartTime: '2024-03-23T12:27:25.5711759-04:00'
+    SubjectName: Trial 22_NGH4_F1_032324
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_12-27-25_trial-22_ngh4_f1_032324_trial-22_ngh4_f1_032324_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_12-27-25_trial-22_ngh4_f1_032324_trial-22_ngh4_f1_032324_results_00.yaml]
+  uuid: 91496d61-8013-4d53-a1e7-88dfa09e8a33
+- filename: 2024-03-23_12-56-01_trial-23_ngh4_f2_032324_trial-23_ngh4_f2_032324_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 23_NGH4_F2_032324
+    StartTime: '2024-03-23T12:56:01.8216209-04:00'
+    SubjectName: Trial 23_NGH4_F2_032324
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_12-56-01_trial-23_ngh4_f2_032324_trial-23_ngh4_f2_032324_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_12-56-01_trial-23_ngh4_f2_032324_trial-23_ngh4_f2_032324_results_00.yaml]
+  uuid: 4207e718-0693-4c05-932e-3fecad5bad4f
+- filename: 2024-05-01_11-39-38_ngh1_m2_050124_ngh1_m2_050124_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH1_M2_050124
+    StartTime: '2024-05-01T11:39:38.8716626-04:00'
+    SubjectName: NGH1_M2_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_11-39-38_ngh1_m2_050124_ngh1_m2_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_11-39-38_ngh1_m2_050124_ngh1_m2_050124_results_00.yaml]
+  uuid: b8a0d9c0-b1f9-4f2e-9731-4017d8be5076
+- filename: 2024-03-22_12-43-09_trial-13_si9_m_032224_trial-13_si9_m_032224_results_00.h5
+  group: SI_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 13_SI9_M_032224
+    StartTime: '2024-03-22T12:43:09.8667233-04:00'
+    SubjectName: Trial 13_SI9_M_032224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_12-43-09_trial-13_si9_m_032224_trial-13_si9_m_032224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_12-43-09_trial-13_si9_m_032224_trial-13_si9_m_032224_results_00.yaml]
+  uuid: 66f8f376-cb83-4a3f-8bd5-84cf3fe421f0
+- filename: 2024-05-01_13-48-24_lnb1_m2_050124_lnb1_m2_050124_results_00.h5
+  group: LNB_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: LNB1_M2_050124
+    StartTime: '2024-05-01T13:48:24.4781916-04:00'
+    SubjectName: LNB1_M2_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_13-48-24_lnb1_m2_050124_lnb1_m2_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_13-48-24_lnb1_m2_050124_lnb1_m2_050124_results_00.yaml]
+  uuid: 3c33764d-0b17-4e0d-a43b-a8dcba32035e
+- filename: 2024-03-23_15-32-46_trial-28_ee2_f5_032324_trial-28_ee2_f5_032324_results_00.h5
+  group: EE_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 28_EE2_F5_032324
+    StartTime: '2024-03-23T15:32:46.0506335-04:00'
+    SubjectName: Trial 28_EE2_F5_032324
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_15-32-46_trial-28_ee2_f5_032324_trial-28_ee2_f5_032324_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_15-32-46_trial-28_ee2_f5_032324_trial-28_ee2_f5_032324_results_00.yaml]
+  uuid: 79faa665-dd9d-4825-a7d7-4f03faccbffd
+- filename: 2024-03-24_13-04-58_trial-34_si10_f_032424_trial-34_si10_f_032424_results_00.h5
+  group: SI_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 34_SI10_F_032424
+    StartTime: '2024-03-24T13:04:58.7307905-04:00'
+    SubjectName: Trial 34_SI10_F_032424
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_13-04-58_trial-34_si10_f_032424_trial-34_si10_f_032424_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_13-04-58_trial-34_si10_f_032424_trial-34_si10_f_032424_results_00.yaml]
+  uuid: 517d394d-783f-49eb-a21b-4906500c620a
+- filename: 2024-03-23_15-02-16_trial-27_ee2_f4_032324_trial-27_ee2_f4_032324_results_00.h5
+  group: EE_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 27_EE2_F4_032324
+    StartTime: '2024-03-23T15:02:16.2645374-04:00'
+    SubjectName: Trial 27_EE2_F4_032324
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_15-02-16_trial-27_ee2_f4_032324_trial-27_ee2_f4_032324_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_15-02-16_trial-27_ee2_f4_032324_trial-27_ee2_f4_032324_results_00.yaml]
+  uuid: 0ec4e3fd-cca9-4f88-a34c-9a995e4800e6
+- filename: 2024-03-22_14-52-33_trial-17_ee3_m2_032224_trial-17_ee3_m2_032224_results_00.h5
+  group: EE_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 17_EE3_M2_032224
+    StartTime: '2024-03-22T14:52:33.317833-04:00'
+    SubjectName: Trial 17_EE3_M2_032224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_14-52-33_trial-17_ee3_m2_032224_trial-17_ee3_m2_032224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_14-52-33_trial-17_ee3_m2_032224_trial-17_ee3_m2_032224_results_00.yaml]
+  uuid: 99e4d0a5-596e-4cbe-8f36-97a05eada920
+- filename: 2024-03-22_15-52-37_trial-19_ngh3_m1_032224_trial-19_ngh3_m1_032224_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 19_NGH3_M1_032224
+    StartTime: '2024-03-22T15:52:37.4392221-04:00'
+    SubjectName: Trial 19_NGH3_M1_032224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_15-52-37_trial-19_ngh3_m1_032224_trial-19_ngh3_m1_032224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_15-52-37_trial-19_ngh3_m1_032224_trial-19_ngh3_m1_032224_results_00.yaml]
+  uuid: 5577d02a-f768-4bad-b5ac-c8b2cfa9f24c
+- filename: 2024-03-23_14-01-58_trial-25_ee2_f2_032324_trial-25_ee2_f2_032324_results_00.h5
+  group: EE_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 25_EE2_F2_032324
+    StartTime: '2024-03-23T14:01:58.9433329-04:00'
+    SubjectName: Trial 25_EE2_F2_032324
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_14-01-58_trial-25_ee2_f2_032324_trial-25_ee2_f2_032324_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_14-01-58_trial-25_ee2_f2_032324_trial-25_ee2_f2_032324_results_00.yaml]
+  uuid: 6b955156-f120-43f1-85d0-68dd7b8744fa
+- filename: 2024-03-21_17-11-42_trial-10_si1_m_032124_trial-10_si1_m_032124_results_00.h5
+  group: SI_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 10_SI1_M_032124
+    StartTime: '2024-03-21T17:11:42.3890109-04:00'
+    SubjectName: Trial 10_SI1_M_032124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_17-11-42_trial-10_si1_m_032124_trial-10_si1_m_032124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_17-11-42_trial-10_si1_m_032124_trial-10_si1_m_032124_results_00.yaml]
+  uuid: a29ddf54-9836-47fe-8501-5a01f8264ea4
+- filename: 2024-03-22_15-22-05_trial-18_ee3_m3_032224_trial-18_ee3_m3_032224_results_00.h5
+  group: EE_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 18_EE3_M3_032224
+    StartTime: '2024-03-22T15:22:05.4497857-04:00'
+    SubjectName: Trial 18_EE3_M3_032224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_15-22-05_trial-18_ee3_m3_032224_trial-18_ee3_m3_032224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_15-22-05_trial-18_ee3_m3_032224_trial-18_ee3_m3_032224_results_00.yaml]
+  uuid: 7654c7c9-6966-42d4-9551-995231ec0232
+- filename: 2024-05-02_16-54-44_ngh4_f3_050224_ngh4_f3_050224_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH4_F3_050224
+    StartTime: '2024-05-02T16:54:44.1131268-04:00'
+    SubjectName: NGH4_F3_050224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_16-54-44_ngh4_f3_050224_ngh4_f3_050224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_16-54-44_ngh4_f3_050224_ngh4_f3_050224_results_00.yaml]
+  uuid: 566c9d31-77e5-4a25-ad35-b3a4f6d4a4b2
+- filename: 2024-03-22_16-51-26_trial-21_ngh3_m3_032224_trial-21_ngh3_m3_032224_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 21_NGH3_M3_032224
+    StartTime: '2024-03-22T16:51:26.3854452-04:00'
+    SubjectName: Trial 21_NGH3_M3_032224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_16-51-26_trial-21_ngh3_m3_032224_trial-21_ngh3_m3_032224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_16-51-26_trial-21_ngh3_m3_032224_trial-21_ngh3_m3_032224_results_00.yaml]
+  uuid: 1c3a121a-b76b-4243-b1ef-fb8c3b449b52
+- filename: 2024-03-21_13-37-12_trial-4_ngh1_m4_032124_trial-4_ngh1_m4_032124_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 4_NGH1_M4_032124
+    StartTime: '2024-03-21T13:37:12.8100821-04:00'
+    SubjectName: Trial 4_NGH1_M4_032124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_13-37-12_trial-4_ngh1_m4_032124_trial-4_ngh1_m4_032124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_13-37-12_trial-4_ngh1_m4_032124_trial-4_ngh1_m4_032124_results_00.yaml]
+  uuid: 833281e1-dbdf-4ba3-8761-314475164315
+- filename: 2024-05-01_12-39-43_ngh1_m4_050124_ngh1_m4_050124_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH1_M4_050124
+    StartTime: '2024-05-01T12:39:43.9566523-04:00'
+    SubjectName: NGH1_M4_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_12-39-43_ngh1_m4_050124_ngh1_m4_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_12-39-43_ngh1_m4_050124_ngh1_m4_050124_results_00.yaml]
+  uuid: 7b108f60-b70a-4ab1-8ada-ec1e239d5621
+- filename: 2024-03-24_14-01-30_trial-36_si14_f_032424_trial-36_si14_f_032424_results_00.h5
+  group: SI_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 36_SI14_F_032424
+    StartTime: '2024-03-24T14:01:30.1963143-04:00'
+    SubjectName: Trial 36_SI14_F_032424
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_14-01-30_trial-36_si14_f_032424_trial-36_si14_f_032424_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_14-01-30_trial-36_si14_f_032424_trial-36_si14_f_032424_results_00.yaml]
+  uuid: cf72f833-7a51-47c5-944a-eea41f6cb705
+- filename: 2024-03-21_12-37-13_trial-2_ngh1_m2_032124_trial-2_ngh1_m2_032124_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 2_NGH1_M2_032124
+    StartTime: '2024-03-21T12:37:13.4181157-04:00'
+    SubjectName: Trial 2_NGH1_M2_032124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_12-37-13_trial-2_ngh1_m2_032124_trial-2_ngh1_m2_032124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_12-37-13_trial-2_ngh1_m2_032124_trial-2_ngh1_m2_032124_results_00.yaml]
+  uuid: c5376615-0a1e-4f73-b6b3-ce428561040f
+- filename: 2024-03-22_13-11-08_trial-14_si11_m_032224_trial-14_si11_m_032224_results_00.h5
+  group: SI_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 14_SI11_M_032224
+    StartTime: '2024-03-22T13:11:08.1038973-04:00'
+    SubjectName: Trial 14_SI11_M_032224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_13-11-08_trial-14_si11_m_032224_trial-14_si11_m_032224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_13-11-08_trial-14_si11_m_032224_trial-14_si11_m_032224_results_00.yaml]
+  uuid: 6dc31e75-4074-431e-aced-6260dd2ac166
+- filename: 2024-03-22_13-39-46_trial-15_si13_m_032224_trial-15_si13_m_032224_results_00.h5
+  group: SI_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 15_SI13_M_032224
+    StartTime: '2024-03-22T13:39:46.8977537-04:00'
+    SubjectName: Trial 15_SI13_M_032224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_13-39-46_trial-15_si13_m_032224_trial-15_si13_m_032224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_13-39-46_trial-15_si13_m_032224_trial-15_si13_m_032224_results_00.yaml]
+  uuid: a2fcb6f3-288e-4462-9792-d6ffccc6272c
+- filename: 2024-03-21_16-10-17_trial-8_ee1_m4_032124_trial-8_ee1_m4_032124_results_00.h5
+  group: EE_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 8_EE1_M4_032124
+    StartTime: '2024-03-21T16:10:17.6416891-04:00'
+    SubjectName: Trial 8_EE1_M4_032124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_16-10-17_trial-8_ee1_m4_032124_trial-8_ee1_m4_032124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_16-10-17_trial-8_ee1_m4_032124_trial-8_ee1_m4_032124_results_00.yaml]
+  uuid: 1089a9f2-2fbf-460f-a0d2-778bce418f66
+- filename: 2024-05-02_16-24-34_ngh4_f2_050224_ngh4_f2_050224_results_00.h5
+  group: NGH_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH4_F2_050224
+    StartTime: '2024-05-02T16:24:34.1051189-04:00'
+    SubjectName: NGH4_F2_050224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_16-24-34_ngh4_f2_050224_ngh4_f2_050224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_16-24-34_ngh4_f2_050224_ngh4_f2_050224_results_00.yaml]
+  uuid: 65366132-08dd-49e7-b30e-c9f37e61d1dd
+- filename: 2024-05-02_14-56-19_lnb3_f2_050224_lnb3_f2_050224_results_00.h5
+  group: LNB_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: LNB3_F2_050224
+    StartTime: '2024-05-02T14:56:19.2617926-04:00'
+    SubjectName: LNB3_F2_050224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_14-56-19_lnb3_f2_050224_lnb3_f2_050224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_14-56-19_lnb3_f2_050224_lnb3_f2_050224_results_00.yaml]
+  uuid: 27f4d3e7-aacf-4669-a727-2817f137f8fa
+- filename: 2024-03-22_16-22-32_trial-20_ngh3_m2_032224_trial-20_ngh3_m2_032224_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 20_NGH3_M2_032224
+    StartTime: '2024-03-22T16:22:32.6488763-04:00'
+    SubjectName: Trial 20_NGH3_M2_032224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_16-22-32_trial-20_ngh3_m2_032224_trial-20_ngh3_m2_032224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-22_16-22-32_trial-20_ngh3_m2_032224_trial-20_ngh3_m2_032224_results_00.yaml]
+  uuid: 13f7418d-53cf-4406-9dd8-f2616720853c
+- filename: 2024-05-01_14-16-36_lnb1_m3_050124_lnb1_m3_050124_results_00.h5
+  group: LNB_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: LNB1_M3_050124
+    StartTime: '2024-05-01T14:16:36.462266-04:00'
+    SubjectName: LNB1_M3_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_14-16-36_lnb1_m3_050124_lnb1_m3_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_14-16-36_lnb1_m3_050124_lnb1_m3_050124_results_00.yaml]
+  uuid: 11cc444f-d28a-4fce-979d-30699a068a1c
+- filename: 2024-03-21_17-40-16_trial-11_si3_m_032124_trial-11_si3_m_032124_results_00.h5
+  group: SI_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 11_SI3_M_032124
+    StartTime: '2024-03-21T17:40:16.538201-04:00'
+    SubjectName: Trial 11_SI3_M_032124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_17-40-16_trial-11_si3_m_032124_trial-11_si3_m_032124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_17-40-16_trial-11_si3_m_032124_trial-11_si3_m_032124_results_00.yaml]
+  uuid: 53677f61-78e3-44c5-aa47-7b1db4e0fe26
+- filename: 2024-03-21_14-36-46_trial-6_ee1_m2_032124_trial-6_ee1_m2_032124_results_00.h5
+  group: EE_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 6_EE1_M2_032124
+    StartTime: '2024-03-21T14:36:46.4190167-04:00'
+    SubjectName: Trial 6_EE1_M2_032124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_14-36-46_trial-6_ee1_m2_032124_trial-6_ee1_m2_032124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-21_14-36-46_trial-6_ee1_m2_032124_trial-6_ee1_m2_032124_results_00.yaml]
+  uuid: 0ef5b251-2d05-4f3d-a3eb-197a7f61e4dd
+- filename: 2024-05-01_15-41-26_lnb2_m2_050124_lnb2_m2_050124_results_00.h5
+  group: LNB_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: LNB2_M2_050124
+    StartTime: '2024-05-01T15:41:26.9803391-04:00'
+    SubjectName: LNB2_M2_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_15-41-26_lnb2_m2_050124_lnb2_m2_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_15-41-26_lnb2_m2_050124_lnb2_m2_050124_results_00.yaml]
+  uuid: bb269909-25b3-4e4d-9697-3de9eda9b470
+- filename: 2024-03-23_17-05-59_trial-31_si4_f_032324_trial-31_si4_f_032324_results_00.h5
+  group: SI_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 31_SI4_F_032324
+    StartTime: '2024-03-23T17:05:59.9298743-04:00'
+    SubjectName: Trial 31_SI4_F_032324
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_17-05-59_trial-31_si4_f_032324_trial-31_si4_f_032324_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_17-05-59_trial-31_si4_f_032324_trial-31_si4_f_032324_results_00.yaml]
+  uuid: c0cbeb61-5e4c-49c2-a84f-bac729ff12c4
+- filename: 2024-03-23_17-34-40_trial-32_si6_f_032324_trial-32_si6_f_032324_results_00.h5
+  group: SI_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 32_SI6_F_032324
+    StartTime: '2024-03-23T17:34:40.8827272-04:00'
+    SubjectName: Trial 32_SI6_F_032324
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_17-34-40_trial-32_si6_f_032324_trial-32_si6_f_032324_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_17-34-40_trial-32_si6_f_032324_trial-32_si6_f_032324_results_00.yaml]
+  uuid: c133ed26-e9b6-4280-b387-68d26700a1d7
+- filename: 2024-05-01_16-39-14_ngh2_m1_050124_ngh2_m1_050124_results_00.h5
+  group: NGH_Normal_Male
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: NGH2_M1_050124
+    StartTime: '2024-05-01T16:39:14.5721715-04:00'
+    SubjectName: NGH2_M1_050124
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_16-39-14_ngh2_m1_050124_ngh2_m1_050124_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-01_16-39-14_ngh2_m1_050124_ngh2_m1_050124_results_00.yaml]
+  uuid: 83ea4916-a0a0-49dc-bae3-3639f5654372
+- filename: 2024-03-24_15-37-50_trial-39_ee4_f3_032424_trial-39_ee4_f3_032424_results_00.h5
+  group: EE_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 39_EE4_F3_032424
+    StartTime: '2024-03-24T15:37:50.5710652-04:00'
+    SubjectName: Trial 39_EE4_F3_032424
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_15-37-50_trial-39_ee4_f3_032424_trial-39_ee4_f3_032424_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_15-37-50_trial-39_ee4_f3_032424_trial-39_ee4_f3_032424_results_00.yaml]
+  uuid: a7f0ee96-df45-4497-be79-97036aee7a5e
+- filename: 2024-03-24_14-38-02_trial-37_ee4_f1_032424_trial-37_ee4_f1_032424_results_00.h5
+  group: EE_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 37_EE4_F1_032424
+    StartTime: '2024-03-24T14:38:02.2782679-04:00'
+    SubjectName: Trial 37_EE4_F1_032424
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_14-38-02_trial-37_ee4_f1_032424_trial-37_ee4_f1_032424_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-24_14-38-02_trial-37_ee4_f1_032424_trial-37_ee4_f1_032424_results_00.yaml]
+  uuid: 76126d36-eb9d-4971-b8cb-90694b8811c4
+- filename: 2024-03-23_14-30-59_trial-26_ee2_f3_032324_trial-26_ee2_f3_032324_results_00.h5
+  group: EE_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: Trial 26_EE2_F3_032324
+    StartTime: '2024-03-23T14:30:59.6636646-04:00'
+    SubjectName: Trial 26_EE2_F3_032324
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_14-30-59_trial-26_ee2_f3_032324_trial-26_ee2_f3_032324_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-03-23_14-30-59_trial-26_ee2_f3_032324_trial-26_ee2_f3_032324_results_00.yaml]
+  uuid: b3689ad7-5f4f-43c1-8a45-ddc9876a92e9
+- filename: 2024-05-02_14-27-38_lnb3_f1_050224_lnb3_f1_050224_results_00.h5
+  group: LNB_Normal_Female
+  metadata:
+    ColorDataType: Byte[]
+    ColorResolution: [512, 424]
+    DepthDataType: UInt16[]
+    DepthResolution: [512, 424]
+    IsLittleEndian: true
+    NidaqChannels: 0
+    NidaqSamplingRate: 0.0
+    SessionName: LNB3_F1_050224
+    StartTime: '2024-05-02T14:27:38.1534471-04:00'
+    SubjectName: LNB3_F1_050224
+  path: [/om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_14-27-38_lnb3_f1_050224_lnb3_f1_050224_results_00.h5,
+    /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/aggregate_results/2024-05-02_14-27-38_lnb3_f1_050224_lnb3_f1_050224_results_00.yaml]
+  uuid: 250c996c-a7ae-4353-8f30-1ed95b48e4de
+pca_path: /om/scratch/Tue/mabdel03/Moseq/Run_Offsprings/moseq_data/_pca/pca_scores.h5
