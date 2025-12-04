@@ -55,6 +55,18 @@ Notebooks require data from `../../data/`:
 - `stats_df.csv`: Statistical summaries
 - `fingerprints/`: Fingerprint summary files
 
+### Data Download
+
+Large data files are not included in the GitHub repository. Download from Dropbox:
+
+**Dropbox Path**: `All Files/Mahmoud Abdelmoneum/BAP/Moseq/12-1-2025_Run/Offsprings_Only/Dataframes/`
+
+| File | Size |
+|------|------|
+| `moseq_df.csv.gz` | 226 MB |
+| `stats_df.csv` | 3.7 MB |
+| `fingerprints/full/fingerprint_summary_full.csv` | 437 KB |
+
 ## Output Files
 
 ### Model Files

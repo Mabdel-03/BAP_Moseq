@@ -179,16 +179,37 @@ Two statistical approaches were used to compare syllable usage between experimen
 
 ## Large Files (Not in Repository)
 
-The following large files are excluded from the repository due to GitHub's 100MB file limit:
+The following large files are excluded from the repository due to GitHub's 100MB file limit. They are available for download from Dropbox.
 
-| File | Size | Source Location |
-|------|------|-----------------|
-| `Offsprings/data/moseq_df.csv.gz` | ~227MB | `/om/scratch/Mon/mabdel03/Moseq/Run_Offsprings/moseq_data/models/model-006-4641589/moseq_df.csv` |
+### Dropbox Location
 
-To obtain these files, copy from the source location and compress with gzip:
+**Dropbox Path**: `All Files/Mahmoud Abdelmoneum/BAP/Moseq/12-1-2025_Run/Offsprings_Only/Dataframes/`
+
+| File | Size | Description |
+|------|------|-------------|
+| `moseq_df.csv.gz` | 226 MB | Main MoSeq dataframe (gzip compressed) |
+| `stats_df.csv` | 3.7 MB | Statistics dataframe |
+| `fingerprints/full/fingerprint_summary_full.csv` | 437 KB | Fingerprint summary |
+
+### Download Instructions
+
+1. Access the MIT Dropbox at the path above
+2. Download the required files
+3. Place them in `Offsprings/data/` following this structure:
+
+```
+Offsprings/data/
+├── moseq_df.csv.gz
+├── stats_df.csv
+└── fingerprints/
+    └── full/
+        └── fingerprint_summary_full.csv
+```
+
+### Alternative: Local Source
+
+If you have access to the OpenMind cluster, files can also be copied from:
 ```bash
-cp /om/scratch/Mon/mabdel03/Moseq/Run_Offsprings/moseq_data/models/model-006-4641589/moseq_df.csv \
-   Offsprings/data/moseq_df.csv
-gzip Offsprings/data/moseq_df.csv
+/om/scratch/Mon/mabdel03/Moseq/Run_Offsprings/moseq_data/models/model-006-4641589/
 ```
 
